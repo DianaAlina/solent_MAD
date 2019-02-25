@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/lat"
+            android:textSize="10pt"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/tv1" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:id="@+id/et1"
+            android:layout_toRightOf="@id/tv1"
+            android:inputType="numberDecimal|numberSigned"
+            android:textSize="8pt"
+            android:hint="@string/lat"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/lat"
+            android:textSize="10pt"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/tv2" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:id="@+id/et2"
+            android:layout_toRightOf="@id/tv2"
+            android:inputType="numberDecimal|numberSigned"
+            android:textSize="8pt"
+            android:hint="@string/lat"/>
+
+    </RelativeLayout>
+
+    <Button android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn1"
+        android:text="@string/goBtn" />
+
+
+</LinearLayout>
+
+
+
+
+<!-- <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+    >
+
+
+<RelativeLayout android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/lat"
+        android:textSize="10pt"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/tv2" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/latitude"
+        android:layout_toRightOf="@id/tv2"
+        android:inputType="numberDecimal|numberSigned"
+        android:textSize="10pt"
+        android:hint="@string/lat"
+        />
+</RelativeLayout>
+
+<RelativeLayout android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/lon"
+        android:textSize="10pt"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/tv3"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/longitude"
+        android:layout_toRightOf="@id/tv3"
+        android:inputType="numberDecimal|numberSigned"
+        android:textSize="10pt"
+        android:hint="@string/lon"
+        />
+</RelativeLayout>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <Button android:layout_width="0px"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn1"
+        android:text="@string/goBtn" />
+
+
+</LinearLayout>
+
+<org.osmdroid.views.MapView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:enabled="true"
+    android:clickable="true"
+    android:id="@+id/map1"
+    tilesource="Mapnik"
+    />
+
+</LinearLayout>-->
